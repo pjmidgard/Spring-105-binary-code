@@ -1,6 +1,9 @@
 # Spring-105-binary-code
 Spring-105 binary code
 
+1. Step Spring-105-binary-code
+2. .paq.
+
 
                                 if assxw==e3%12 or assxw==e3%10:
                                             if e4=="1":
