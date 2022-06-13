@@ -1,6 +1,6 @@
 from time import time
 cvf=0
-Portal=2
+
 import os
 import binascii
 self="'"
