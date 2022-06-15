@@ -64,7 +64,7 @@ wer=""
 qtqweqw=""
 numberschangenotexist = []
 numbers = []
-namez = input("for compress c or extract u? ")
+namez = input("for compress ul or extract cl? ")
 #@Author Jurijus pacalovas
 class compression:
 
@@ -72,7 +72,7 @@ class compression:
                 
                 self.name = "Author: Jurijus pacalovas"
                 
-                if namez=="c":
+                if namez=="ul":
                     corridors=0
                     cor=7
                     name = input("What is name of file? ")
@@ -98,7 +98,7 @@ class compression:
                     if nameas[nac-4:nac]==".mp4":
                     	Portal=8
 
-                    nameas=name+".Spring-105"
+                    nameas=name+".bin"
                 
                     nac=len(nameas)
                     
@@ -581,7 +581,7 @@ class compression:
                                             return print(x3)
 
     def cryptograpy_unpack(self):                      
-                 if namez=="u":
+                 if namez=="cl":
                     corridors=0
                     cor=7
                     name = input("What is name of file? ")
@@ -595,8 +595,7 @@ class compression:
                     blockw1=4
                     nameas=name
                     nac=len(nameas)
-                    name_cut=len(".Spring-105")
-                    nameas=name[:nac-name_cut]
+                    nameas=name[:nac-4]
                     nac=len(nameas)
             
                     
