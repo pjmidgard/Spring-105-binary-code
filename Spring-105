@@ -1,6 +1,5 @@
 from time import time
 cvf=0
-Portal=2
 import os
 import binascii
 self="'"
@@ -64,7 +63,7 @@ wer=""
 qtqweqw=""
 numberschangenotexist = []
 numbers = []
-namez = input("for compress ul or extract cl? ")
+namez = input("for compress c or extract u? ")
 #@Author Jurijus pacalovas
 class compression:
 
@@ -72,7 +71,7 @@ class compression:
                 
                 self.name = "Author: Jurijus pacalovas"
                 
-                if namez=="ul":
+                if namez=="c":
                     corridors=0
                     cor=7
                     name = input("What is name of file? ")
@@ -85,18 +84,7 @@ class compression:
                     blockw1=4
                     nameas=name
                     nac=len(nameas)
-                    if nameas[nac-5:nac]==".docx":
-                    	Portal=1
-                    if nameas[nac-4:nac]==".pdf":
-                    	Portal=3
-                    if nameas[nac-4:nac]==".doc":
-                    	Portal=1
-                    if nameas[nac-4:nac]==".png":
-                    	Portal=7
-                    if nameas[nac-4:nac]==".jpg":
-                    	Portal=9
-                    if nameas[nac-4:nac]==".mp4":
-                    	Portal=8
+           
 
                     nameas=name+".Spring-105"
                 
@@ -581,7 +569,7 @@ class compression:
                                             return print(x3)
 
     def cryptograpy_unpack(self):                      
-                 if namez=="cl":
+                 if namez=="u":
                     corridors=0
                     cor=7
                     name = input("What is name of file? ")
