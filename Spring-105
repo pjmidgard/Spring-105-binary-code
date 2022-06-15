@@ -583,7 +583,7 @@ class compression:
                     blockw1=4
                     nameas=name
                     nac=len(nameas)
-                    name-cut=len("Spring-105")
+                    name-cut=len(".Spring-105")
                     nameas=name[:name-cut]
                     nac=len(nameas)
             
