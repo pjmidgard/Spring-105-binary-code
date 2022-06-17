@@ -86,7 +86,7 @@ class compression:
                     nac=len(nameas)
            
 
-                    nameas=name+".Spring-105-a"
+                    nameas=name+".S"
                 
                     nac=len(nameas)
                     
@@ -584,7 +584,7 @@ class compression:
                     nameas=name
                     nac=len(nameas)
                     name_cut=""
-                    name_cut=len(".Spring-105-a")
+                    name_cut=len(".S")
                     nameas=name
                     name_long=len(nameas)
                     nameas=name[:name_long-name_cut]
