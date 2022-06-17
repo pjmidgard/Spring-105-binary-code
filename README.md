@@ -7,6 +7,10 @@ Spring-105-binary-code.py
 2. .paq.
 
 
+                                e4=sda2[e2:e3]
+                                
+                                block=block+1 
+                                
                                 if assxw==e3%12 or assxw==e3%10:
                                             if e4=="1":
                                                 sda3=sda3+"0"
@@ -316,3 +320,14 @@ Spring-105-binary-code.py
                                     
                                     n3=n3+2
                                     sw7=n3
+                                    
+                             
+                                if cvf==lenf5*8+4:
+                                    sw=sw+1
+                                    cvf=c
+                                    cvf1=cvf1+1
+                                     
+                                    c=c+2
+
+                                if cvf1==1:
+                                    
