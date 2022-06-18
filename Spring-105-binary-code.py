@@ -443,7 +443,7 @@ class compression:
                                 elif e4=="1" and e3== e3%3+sw:
                                 	sda3=sda3+"0"
                                 	e4="0"
-                                elif e4=="1" and e3== e3%23+n or e4=="1" and e3== e3%23+n1 or e4=="q" and e3== e3%23+n2:
+                                elif e4=="1" and e3== e3%23+n or e4=="1" and e3== e3%23+n1 or e4=="1" and e3== e3%23+n2:
                                     sda3=sda3+"0"
                                     e4="1"
                                     e4=""	
@@ -929,7 +929,7 @@ class compression:
                                 elif e4=="1" and e3== e3%3+sw:
                                 	sda3=sda3+"0"
                                 	e4="0"
-                                elif e4=="1" and e3== e3%23+n or e4=="1" and e3== e3%23+n1 or e4=="q" and e3== e3%23+n2:
+                                elif e4=="1" and e3== e3%23+n or e4=="1" and e3== e3%23+n1 or e4=="1" and e3== e3%23+n2:
                                     sda3=sda3+"0"
                                     e4="1"
                                     e4=""	
