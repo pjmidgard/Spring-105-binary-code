@@ -256,40 +256,92 @@ class compression:
                                                 e4="1"
                                                 e4=""   
                                                
-                                            elif e4=="1" and e3== e3%3:
-                                                    sda3=sda3+"0"
-                                                    e4="0"
-                                                    e4=""
-                                                
+
                                             elif e4=="1" and e3== e3%2:
                                                 sda3=sda3+"0"
                                                 e4="1"
                                                 e4=""
                                                 
-                                                    
+                                            elif e4=="0" and e3== e3%2:
+                                                sda3=sda3+"1"
+                                                e4="1"
+                                                e4=""                                                    
                                             elif e4=="1":
                                                     sda3=sda3+"0"
                                                     e4="0"
                                                     e4=""
-                                                
-                                            elif e4=="0":
-                                                sda3=sda3+"1"
-                                                e4="1"
-                                                e4=""
-                                    
-                                    
-                                    
-                                            elif e4=="1" and e3== e3%9:
+                                            elif e4=="1" and e3== e3%3:
                                                     sda3=sda3+"0"
-                                                    e4="1"
+                                                    e4="0"
                                                     e4=""
-                                                
-                                            elif e4=="1" and e3== e3%8:
-                                                sda3=sda3+"0"
-                                                e4="0"
-                                                e4=""
-                                                
+                                            elif e4=="0" and e3== e3%3:
+                                                    sda3=sda3+"1"
+                                                    e4="0"
+                                                    e4=""   
+                                            elif e4=="1" and e3== e3%4:
+                                                    sda3=sda3+"1"
+                                                    e4="0"
+                                                    e4=""
+                                            elif e4=="0" and e3== e3%4:
+                                                    sda3=sda3+"0"
+                                                    e4="0"
+                                                    e4=""                                                             
+                                            elif e4=="0" and e3== e3%5:
+                                                    sda3=sda3+"1"
+                                                    e4="0"
+                                                    e4=""   
+                                                                           
+                                            elif e4=="1" and e3== e3%5:
+                                                    sda3=sda3+"0"
+                                                    e4="0"
+                                                    e4=""
                                                     
+                                            elif e4=="0" and e3== e3%6:
+                                                    sda3=sda3+"0"
+                                                    e4="0"
+                                                    e4=""   
+                                                                           
+                                            elif e4=="1" and e3== e3%6:
+                                                    sda3=sda3+"1"
+                                                    e4="0"
+                                                    e4=""                                                                                    
+                                            elif e4=="0" and e3== e3%7:
+                                                    sda3=sda3+"1"
+                                                    e4="0"
+                                                    e4=""   
+                                                                           
+                                            elif e4=="0" and e3== e3%7:
+                                                    sda3=sda3+"1"
+                                                    e4="0"
+                                                    e4=""    
+                                            elif e4=="0" and e3== e3%8:
+                                                    sda3=sda3+"1"
+                                                    e4="0"
+                                                    e4=""   
+                                                                           
+                                            elif e4=="0" and e3== e3%8:
+                                                    sda3=sda3+"1"
+                                                    e4="0"
+                                                    e4=""    
+                                            elif e4=="0" and e3== e3%9:
+                                                    sda3=sda3+"0"
+                                                    e4="0"
+                                                    e4=""   
+                                                                           
+              
+                                            elif e4=="1" and e3== e3%9:
+                                                    sda3=sda3+"1"
+                                                    e4="0"
+                                                    e4=""                                                                                                                                                                                                                                                                                                                                                        
+                                            elif e4=="0" and e3== e3%11:
+                                                    sda3=sda3+"1"
+                                                    e4="0"
+                                                    e4=""   
+                                                                           
+                                            elif e4=="0" and e3== e3%11:
+                                                    sda3=sda3+"1"
+                                                    e4="0"
+                                                    e4=""      
                                             elif e4=="1" and e3 ==e3%1:
                                                     sda3=sda3+"0"
                                                     e4="0"
@@ -590,7 +642,8 @@ class compression:
                     nameas=name
                     
                     name_long=len(nameas)
-                    if name!=".SS":
+                    nameSS=name[name_long-name_cut:]
+                    if nameSS!=".SS":
                         x3=0.0
                         return print(x3)
                         
@@ -768,39 +821,82 @@ class compression:
                                                 e4="1"
                                                 e4=""   
                                                
-                                            elif e4=="1" and e3== e3%3:
-                                                    sda3=sda3+"0"
-                                                    e4="0"
-                                                    e4=""
-                                                
                                             elif e4=="1" and e3== e3%2:
                                                 sda3=sda3+"0"
                                                 e4="1"
                                                 e4=""
                                                 
-                                                    
+                                            elif e4=="0" and e3== e3%2:
+                                                sda3=sda3+"1"
+                                                e4="1"
+                                                e4=""                                                    
                                             elif e4=="1":
                                                     sda3=sda3+"0"
                                                     e4="0"
                                                     e4=""
-                                                
-                                            elif e4=="0":
-                                                sda3=sda3+"1"
-                                                e4="1"
-                                                e4=""
-                                    
-                                    
-                                    
-                                            elif e4=="1" and e3== e3%9:
+                                            elif e4=="1" and e3== e3%3:
                                                     sda3=sda3+"0"
-                                                    e4="1"
+                                                    e4="0"
                                                     e4=""
-                                                
-                                            elif e4=="1" and e3== e3%8:
-                                                sda3=sda3+"0"
-                                                e4="0"
-                                                e4=""
-                                                
+                                            elif e4=="0" and e3== e3%3:
+                                                    sda3=sda3+"1"
+                                                    e4="0"
+                                                    e4=""   
+                                            elif e4=="1" and e3== e3%4:
+                                                    sda3=sda3+"1"
+                                                    e4="0"
+                                                    e4=""
+                                            elif e4=="0" and e3== e3%4:
+                                                    sda3=sda3+"0"
+                                                    e4="0"
+                                                    e4=""                                                             
+                                            elif e4=="0" and e3== e3%5:
+                                                    sda3=sda3+"1"
+                                                    e4="0"
+                                                    e4=""   
+                                                                           
+                                            elif e4=="1" and e3== e3%5:
+                                                    sda3=sda3+"0"
+                                                    e4="0"
+                                                    e4=""
+                                                    
+                                            elif e4=="0" and e3== e3%6:
+                                                    sda3=sda3+"0"
+                                                    e4="0"
+                                                    e4=""   
+                                                                           
+                                            elif e4=="1" and e3== e3%6:
+                                                    sda3=sda3+"1"
+                                                    e4="0"
+                                                    e4=""                                                                                    
+                                            elif e4=="0" and e3== e3%7:
+                                                    sda3=sda3+"1"
+                                                    e4="0"
+                                                    e4=""   
+                                                                           
+                                            elif e4=="0" and e3== e3%7:
+                                                    sda3=sda3+"1"
+                                                    e4="0"
+                                                    e4=""    
+                                            elif e4=="0" and e3== e3%8:
+                                                    sda3=sda3+"1"
+                                                    e4="0"
+                                                    e4=""   
+                                                                           
+                                            elif e4=="0" and e3== e3%8:
+                                                    sda3=sda3+"1"
+                                                    e4="0"
+                                                    e4=""    
+                                            elif e4=="0" and e3== e3%9:
+                                                    sda3=sda3+"0"
+                                                    e4="0"
+                                                    e4=""   
+                                                                           
+              
+                                            elif e4=="1" and e3== e3%9:
+                                                    sda3=sda3+"1"
+                                                    e4="0"
+                                                    e4=""     
                                                     
                                             elif e4=="1" and e3 ==e3%1:
                                                     sda3=sda3+"0"
