@@ -588,7 +588,12 @@ class compression:
                     name_cut=""
                     name_cut=len(".SS")
                     nameas=name
+                    
                     name_long=len(nameas)
+                    if name!=".SS":
+                        x3=0.0
+                        return print(x3)
+                        
                     nameas=name[:name_long-name_cut]
                     nac=len(nameas)
                     
