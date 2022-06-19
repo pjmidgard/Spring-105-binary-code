@@ -897,7 +897,15 @@ class compression:
                                                     sda3=sda3+"1"
                                                     e4="0"
                                                     e4=""     
-                                                    
+                                            elif e4=="0" and e3== e3%11:
+                                                    sda3=sda3+"1"
+                                                    e4="0"
+                                                    e4=""   
+                                                                           
+                                            elif e4=="0" and e3== e3%11:
+                                                    sda3=sda3+"1"
+                                                    e4="0"
+                                                    e4=""                                                        
                                             elif e4=="1" and e3 ==e3%1:
                                                     sda3=sda3+"0"
                                                     e4="0"
