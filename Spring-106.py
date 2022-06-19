@@ -550,7 +550,7 @@ class compression:
                                     
                                     jl=paq.compress(jl)
                                     
-                                    jl=jl[:4]
+                                    jl=jl[4:]
                                 
                                     
                                     
@@ -639,6 +639,7 @@ class compression:
                     with open(name, "rb") as binary_file:
 
                        # Read the whole file at once
+                        
                         data = binary_file.read()
                         data=b'\x00\x63\x00\x00'+data
                         import paq
